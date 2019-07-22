@@ -36,7 +36,7 @@ a.active {
 }
 
 a {
-    color: #{{ site.data.template.color.primary }};
+    color: #fff;
 }
 
 a:hover,
@@ -120,14 +120,13 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #{{ site.data.template.color.primary }};
-    border-radius: 3px;
+    border-color: #fff;
+    border-radius: 8px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-size: 18px;
     font-weight: 700;
-    color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
+    background-color: transparent;
 }
 
 .btn-xl:hover,
@@ -135,15 +134,16 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #{{ site.data.template.color.primary }};
-    color: #fff;
-    background-color: #{{ site.data.template.color.secondary }};
+    border-color: #fff;
+    color: {{ site.data.template.color.secondary }};
+    background-color: {{ site.data.template.color.secondary }};
 }
 
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
     background-image: none;
+    color: {{ site.data.template.color.secondary }}
 }
 
 .btn-xl.disabled,
@@ -162,11 +162,11 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
     border-color: #{{ site.data.template.color.primary }};
-    background-color: #{{ site.data.template.color.primary }};
+    background-color: #ffffff;
 }
 
 .btn-xl .badge {
-    color: #{{ site.data.template.color.primary }};
+    color: #fff;
     background-color: #fff;
 }
 
@@ -284,15 +284,15 @@ header {
 
 header .intro-text {
     padding-top: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
     color: #fff;
 }
 
 header .intro-text .intro-lead-in {
-    margin-bottom: 25px;
+    margin-bottom: 55px;
     font-family: {{ site.data.template.font.secondary }};
     font-size: 22px;
-    font-style: italic;
+    /*font-style: italic;*/
     line-height: 22px;
 }
 
@@ -315,7 +315,7 @@ header .intro-text .intro-heading {
         margin-bottom: 25px;
         font-family: {{ site.data.template.font.secondary }};
         font-size: 40px;
-        font-style: italic;
+        /*font-style: italic;*/
         line-height: 40px;
     }
 
