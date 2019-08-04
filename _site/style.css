@@ -132,7 +132,7 @@ fieldset[disabled] .btn-primary.active {
     border-radius: 8px;
     text-transform: uppercase;
     font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 18px;
+    font-size: 2vw;
     font-weight: 700;
     background-color: transparent;
 }
@@ -299,7 +299,7 @@ header .intro-text {
 header .intro-text .intro-lead-in {
     margin-bottom: 55px;
     font-family: "Muli", "Helvetica Neue", Helvetica,Arial,sans-serif;
-    font-size: 22px;
+    font-size: 3vw;
     /*font-style: italic;*/
     line-height: 22px;
 }
@@ -308,7 +308,7 @@ header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 50px;
+    font-size: 6vw;
     font-weight: 700;
     line-height: 50px;
 }
@@ -322,7 +322,7 @@ header .intro-text .intro-heading {
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
         font-family: "Muli", "Helvetica Neue", Helvetica,Arial,sans-serif;
-        font-size: 40px;
+        font-size: 3vw;
         /*font-style: italic;*/
         line-height: 40px;
     }
@@ -331,7 +331,7 @@ header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
         font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 75px;
+        font-size: 6vw;
         font-weight: 700;
         line-height: 75px;
     }
